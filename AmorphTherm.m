@@ -163,7 +163,6 @@ function [eigval_col, dfs, kapa]=AmorphTherm(input_coord, input_hessian, T, anha
         clear delta;
         
         
-        % I am not so sure if it is column vector or row vector
         
         %squ_col=squ_heat_flux(:,i);
         squ_col=squ_heat_flux(i,:);
