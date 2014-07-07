@@ -380,7 +380,8 @@ function [eigval_col, dfs, kapa]=AmorphTherm(input_coord, input_hessian, T, anha
             %}
             accum=0;
             for m=1:all_item
-                accum=accum+(1+1/(exp(tmp(m,2)/210)-1)+1/(exp(tmp(m,3)/210)-1))/(tmp(m,2)*tmp(m,3));
+                kbTT=208.5*T/300;
+                accum=accum+(1+1/(exp(tmp(m,2)/kbTT)-1)+1/(exp(tmp(m,3)/kbTT)-1))/(tmp(m,2)*tmp(m,3));
             end
             counter_real=counter_real+1;
 	    rate(1,counter_real)=eigval_col(s);
