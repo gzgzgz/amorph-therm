@@ -12,7 +12,7 @@ The format of input parameters:
   * *input_coord* is a matrix 3xN in dimension, where N is the atom number or node number.
   * *input_hessian* is a 3Nx3N matrix, which represent the second order derivative of the potential function in space.
   * *T* is the temperature of the equilibrium structure being studied
-  * *anharm_mode_no* is the number of mode you want to put into anharmonic interaction consideration.
+  * *anharm_mode_no* is the number of modes you want to put into anharmonic interaction consideration.
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
   * Headings, paragraphs, and lists
