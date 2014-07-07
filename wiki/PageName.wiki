@@ -9,7 +9,7 @@ Add your content here.
 
 The format of input parameters:
 
-   *input`_`coord* is a matrix 3xN in dimension, where N is the atom number or node number.
+   *\input`_`coord* is a matrix 3xN in dimension, where N is the atom number or node number.
    *input_hessian* is a 3Nx3N matrix, which represent the second order derivative of the potential function in space.
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
