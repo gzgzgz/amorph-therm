@@ -10,7 +10,7 @@
 %         the time spent on eigenvalue problem solving step.
 %
 %
-%     Copyright (C) 2014  
+%     
 %                Version:    3.6
 %                 Author:    Zhi Guo, PhD. 
 %                  Email:    zguo1@nd.edu 
